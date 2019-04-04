@@ -14,6 +14,10 @@ namespace Fisher.Bookstore.Bookstore.Models
 
         public DateTime publishDate{get;set;}
         public string Publisher{get;set;}
+        public void ChangePublicationDate(DateTime dateTime)
+        {
+            this.publishDate=dateTime;
+        }
 
     }
 }
